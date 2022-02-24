@@ -4,23 +4,88 @@
     box-sizing: border-box;
 }
 
+.clearfix:after{
+    content: '';
+    display:table;
+    clear: both;
+}
+
+
 /* || HEADER || */
 
 
 /* || NAV BAR || */
 
-/* || LISTA NAV BAR || */
+nav {
+    padding: 2%;
+    text-align: center;
+    vertical-align: middle;
 
-header li {
-    display: inline-block;
-    list-style: none;
 }
 
-header a {
+
+/* || LOGO || */
+nav img {
+    display: inline-block;
+}
+
+/* || LISTA NAV BAR || */
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    width: 80%;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 1%;
+}
+
+nav a {
     text-decoration: none;
     color: black;
 }
 
 .empty {
+    width: 10%;
+}
+
+/* || INIZIA BUTTON || */
+nav .btnSmall {
+    background-color: blue;
+    color: white;
+}
+
+#inizia {
+    display: inline-block;
+}
+
+/* || JUMBO JUMGO || */
+
+.jumbo-section {
+    background-color: rgb(144, 144, 248);
+    padding: 5%;
+    height: 70vh;
+}
+
+.jumbo-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.jumbo-text {
     width: 30%;
+    
+}
+
+.jumbo-container img {
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+h1 {
+    
 }
