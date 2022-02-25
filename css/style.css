@@ -11,9 +11,15 @@
     clear: both;
 }
 
+/* || GENERAL || */
+
 a {
     text-decoration: none;
     color: black;
+}
+
+ul {
+    list-style-type: none;
 }
 
 
@@ -42,7 +48,6 @@ nav {
 /* || LISTA NAV BAR || */
 nav ul {
     display: inline-block;
-    list-style-type: none;
 }
 
 nav li {
@@ -67,11 +72,11 @@ nav .btnSmall {
 
 .jumbo-section {
     background-color: rgb(144, 144, 248);
-    padding: 7%;
+    padding: 7% 0;
 }
 
 .jumbo-container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     position: relative;
 }
@@ -100,6 +105,10 @@ nav .btnSmall {
     top: 65%;
 }
 
+.jumbo-text .text-format {
+    padding: 3% 0 15%;
+}
+
 h1 {
     font-size: 9.5vh;
 }
@@ -107,7 +116,60 @@ h1 {
 /* || COLUMN SECTION || */
 
 .col-section {
-    width: 90%;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+.col {
+    border: 1px solid gray;
+    float: left;
+    width: calc(100% / 3 - 3.34%);
+}
+
+.middle-col {
+    margin: 0 5%;
+}
+
+.col > span:first-child {
+    display: block;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 5%;
+}
+.col-text {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 8%;
+}
+
+.col-text h4 {
+    padding: 5% 0 10%;
+}
+
+.col .text-format a {
+    color: blue;
+}
+
+.col-text .text-format {
+    padding: 3% 0;
+}
+
+.col-text .btnLarge {
+    margin: 15% 0 5%;
+}
+
+.border {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10% ;
+}
+
+.col-text ul {
+    padding: 15% 0;
+}
+
+.col-text li {
+    padding: 5% 0;
 }
 
 /* || TEXT || */
@@ -118,8 +180,11 @@ p {
 
 .text-format {
     font-size: 0.8rem;
-    padding: 3% 0 15%;
     display: block;
+}
+
+.textCol-format {
+    border: 1px solid gray;
 }
 
 /* || BUTTONS || */
