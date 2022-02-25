@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix:after{
@@ -42,7 +43,6 @@ nav {
 nav ul {
     display: inline-block;
     list-style-type: none;
-
 }
 
 nav li {
@@ -67,27 +67,67 @@ nav .btnSmall {
 
 .jumbo-section {
     background-color: rgb(144, 144, 248);
-    padding: 5%;
-    height: 70vh;
+    padding: 7%;
 }
 
 .jumbo-container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     position: relative;
 }
 
 .jumbo-text {
     width: 30%;
-    
+}
+
+.jumbo-text p {
+    padding: 10% 0 6%;
+}
+
+.jumbo-text .btnLarge {
+    font-size: 0.8rem;
+    width: 70%;
+}
+
+.fa-arrow-down {
+    font-size: 6vh;
 }
 
 .jumbo-container img {
     width: 50%;
     position: absolute;
     right: 0;
+    top: 65%;
 }
 
 h1 {
-    
+    font-size: 9.5vh;
+}
+
+/* || COLUMN SECTION || */
+
+.col-section {
+    width: 90%;
+}
+
+/* || TEXT || */
+
+p {
+    font-size: 0.8rem
+}
+
+.text-format {
+    font-size: 0.8rem;
+    padding: 3% 0 15%;
+    display: block;
+}
+
+/* || BUTTONS || */
+
+.btnLarge {
+    background-color: blue;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-align: center;
 }
