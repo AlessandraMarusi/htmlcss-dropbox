@@ -22,6 +22,11 @@ ul {
     list-style-type: none;
 }
 
+.section-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
 
 /* || HEADER || */
 
@@ -57,15 +62,6 @@ nav li {
 
 nav li img {
     vertical-align: bottom;
-}
-
-
-/* || INIZIA BUTTON || */
-nav .btnSmall {
-    background-color: blue;
-    color: white;
-    padding: 15% 40%;
-    /* margin-right: 30px; */
 }
 
 /* || JUMBO JUMGO || */
@@ -105,10 +101,6 @@ nav .btnSmall {
     top: 65%;
 }
 
-.jumbo-text .text-format {
-    padding: 3% 0 15%;
-}
-
 h1 {
     font-size: 9.5vh;
 }
@@ -116,9 +108,7 @@ h1 {
 /* || COLUMN SECTION || */
 
 .col-section {
-    width: 70%;
-    margin: 0 auto;
-    padding: 5% 0;
+    padding: 10% 0 10% 0%;
 }
 
 .col {
@@ -140,19 +130,16 @@ h1 {
 .col-text {
     width: 80%;
     margin: 0 auto;
-    padding-top: 8%;
+    padding-top: 2rem;
 }
 
 .col-text h4 {
-    padding: 5% 0 10%;
+    /* padding: 5% 0 10%; */
+    padding: 1.2rem 0 0;
 }
 
 .col .text-format a {
     color: blue;
-}
-
-.col-text .text-format {
-    padding: 3% 0;
 }
 
 .col-text .btnLarge {
@@ -172,6 +159,33 @@ h1 {
     padding: 5% 0;
 }
 
+.colLarge {
+    width: 100%;
+    position: relative;
+}
+
+.colLarge .btnLarge {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+/* || IMAGE SECTION || */
+.img-section img{
+    float: left;
+    width: 55%;
+}
+
+.img-sectionText {
+    padding: 5% 0 0;
+    width: 40%;
+    float: right;
+}
+
+.img-section .text-format {
+    padding-bottom: 10%;
+}
+
 /* || TEXT || */
 
 p {
@@ -181,11 +195,13 @@ p {
 .text-format {
     font-size: 0.8rem;
     display: block;
+    padding: 0.7rem 0;
 }
 
 .textCol-format {
     border: 1px solid gray;
 }
+
 
 /* || BUTTONS || */
 
@@ -195,4 +211,17 @@ p {
     padding: 0.5rem 1rem;
     color: white;
     text-align: center;
+    font-size: 0.8rem;
+}
+
+.btnMedium {
+    border: 1px solid gray;
+    padding: 2% 4%;
+    margin-top: 50px;
+}
+
+.btnSmall {
+    background-color: blue;
+    color: white;
+    padding: 15% 40%;
 }
