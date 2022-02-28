@@ -212,7 +212,7 @@ h1 {
 }
 
 /* || COMPANY SECTION || */
-.company-container {
+.companyCol-container {
     background-color: lightgray;
     height: 29.5vw;
 }
@@ -264,6 +264,24 @@ h1 {
     position: relative;
     top: 50%;
     transform: translateY(-50%)
+}
+
+.company-banner {
+    background-color: rgb(198, 252, 234);
+    padding: 8% 0;
+}
+
+.company-banner h2 {
+    color: rgb(49, 1, 61);
+    width: 35%;
+    float: left;
+}
+
+.company-banner .btnLarge {
+    float: right;
+    padding: 1% 8%;
+    background-color: white;
+    color: black;
 }
 
 
