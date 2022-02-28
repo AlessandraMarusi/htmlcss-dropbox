@@ -307,6 +307,83 @@ h1 {
     float: right;
 }
 
+ 
+/* !! FOOTER ||  */
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-list {
+    padding: 8% 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-list ul {
+    float: left;
+    width: calc(100% / 5);
+}
+
+
+.footer-list h3 {
+    padding-bottom: 8%;
+}
+
+.footer-list li {
+    margin-bottom: 5%;
+}
+
+.footer-list a {
+    color: white;
+}
+
+/* || DROPUP MENU || */
+.lingua-container {
+    width: 10%;
+    border-top: 1px solid lightgray;
+    display: inline-block;
+    padding-top: 3%;
+    margin-top: 10%;
+}
+
+.linguaBtn {
+    background-color: black;
+    color: white;
+    border: none;
+}
+.lingua {
+    position: relative;
+    display: inline-block;
+    margin-top: 15%;
+}
+
+.lingua-content {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    background-color: white;
+}
+  
+.lingua-content a {
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.9rem;
+}
+  
+.lingua-content a:hover {
+    background-color: #ddd
+}
+  
+.lingua:hover .lingua-content {
+    display: block;
+}
+  
+.lingua:hover .linguaBtn {
+    background-color: #2980B9;
+}
 
 
 /* || TEXT || */
