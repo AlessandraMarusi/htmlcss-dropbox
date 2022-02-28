@@ -51,6 +51,14 @@ nav {
 
 
 /* || LISTA NAV BAR || */
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+
 nav ul {
     display: inline-block;
 }
@@ -69,6 +77,7 @@ nav li img {
 .jumbo-section {
     background-color: rgb(144, 144, 248);
     padding: 7% 0;
+    margin-top: 7%;
 }
 
 .jumbo-container {
