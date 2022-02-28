@@ -27,9 +27,53 @@ ul {
     margin: 0 auto;
 }
 
+h1 {
+    font-size: 3.7rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.text-format {
+    font-size: 0.7rem;
+    display: block;
+    padding: 0.5rem 0;
+}
+
+p {
+    font-size: 0.8rem
+}
+
+.textCol-format {
+    border: 1px solid gray;
+}
+
+/* || BUTTONS || */
+
+.btnLarge {
+    background-color: blue;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.btnMedium {
+    border: 1px solid gray;
+    padding: 2% 4%;
+    margin-top: 50px;
+}
+
+.btnSmall {
+    background-color: blue;
+    color: white;
+    padding: 15% 40%;
+}
+
 
 /* || HEADER || */
-
 
 /* || NAV BAR || */
 nav {
@@ -44,10 +88,6 @@ nav {
     float: right;
     padding-right: 2%;
 }
-
-
-/* || LOGO || */
-
 
 
 /* || LISTA NAV BAR || */
@@ -71,6 +111,7 @@ nav li {
 nav li img {
     vertical-align: bottom;
 }
+
 
 /* || JUMBO JUMGO || */
 
@@ -104,20 +145,25 @@ nav li img {
 }
 
 .jumbo-container img {
-    width: 50%;
+    width: 65%;
     position: absolute;
-    right: 0;
-    top: 65%;
+    right: 0%;
+    top: 45%;
 }
 
-h1 {
-    font-size: 9.5vh;
-}
 
 /* || COLUMN SECTION || */
 
 .col-section {
     padding: 10% 0 10% 0%;
+}
+
+.col-sectionTitle label {
+    margin-right: 2%;
+}
+
+.col-sectionTitle input {
+    margin: 5% 0 3% 0;
 }
 
 .col {
@@ -143,7 +189,6 @@ h1 {
 }
 
 .col-text h4 {
-    /* padding: 5% 0 10%; */
     padding: 1.2rem 0 0;
 }
 
@@ -160,12 +205,24 @@ h1 {
     padding-bottom: 10% ;
 }
 
+.month {
+    color: rgb(131, 130, 130);
+    padding-bottom: 15%;
+}
+
+
 .col-text ul {
     padding: 15% 0;
 }
 
 .col-text li {
     padding: 5% 0;
+    padding-left: 5%;
+}
+
+.col-text .fa-check {
+    color: blue;
+    margin-left: -5%;
 }
 
 .colLarge {
@@ -383,47 +440,6 @@ footer {
   
 .lingua:hover .linguaBtn {
     background-color: #2980B9;
-}
-
-
-/* || TEXT || */
-
-p {
-    font-size: 0.8rem
-}
-
-.text-format {
-    font-size: 0.8rem;
-    display: block;
-    padding: 0.7rem 0;
-}
-
-.textCol-format {
-    border: 1px solid gray;
-}
-
-
-/* || BUTTONS || */
-
-.btnLarge {
-    background-color: blue;
-    display: block;
-    padding: 0.5rem 1rem;
-    color: white;
-    text-align: center;
-    font-size: 0.8rem;
-}
-
-.btnMedium {
-    border: 1px solid gray;
-    padding: 2% 4%;
-    margin-top: 50px;
-}
-
-.btnSmall {
-    background-color: blue;
-    color: white;
-    padding: 15% 40%;
 }
 
 /* || BACKGROUND COLORS || */
