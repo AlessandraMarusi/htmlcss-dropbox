@@ -170,6 +170,7 @@ nav li img {
     border: 1px solid gray;
     float: left;
     width: calc(100% / 3 - 3.34%);
+    min-height: 804px;
 }
 
 .middle-col {
@@ -210,6 +211,13 @@ nav li img {
     padding-bottom: 15%;
 }
 
+.col-text .fa-pen {
+    margin-left: -7.7%;
+}
+
+.pen {
+    margin-left: 7.7%;
+}
 
 .col-text ul {
     padding: 15% 0;
@@ -217,17 +225,22 @@ nav li img {
 
 .col-text li {
     padding: 5% 0;
-    padding-left: 5%;
+    padding-left: 7.7%;
+}
+
+.col-text .fa-solid {
+    padding-right: 2%;
 }
 
 .col-text .fa-check {
     color: blue;
-    margin-left: -5%;
+    margin-left: -7.7%;
 }
 
 .colLarge {
     width: 100%;
     position: relative;
+    min-height: 0;
 }
 
 .colLarge .btnLarge {
