@@ -22,7 +22,7 @@ ul {
     list-style-type: none;
 }
 
-.section-container {
+.container {
     width: 70%;
     margin: 0 auto;
 }
@@ -211,6 +211,63 @@ h1 {
     width: 100%;
 }
 
+/* || COMPANY SECTION || */
+.company-container {
+    background-color: lightgray;
+    height: 29.5vw;
+}
+
+.company-section .container .text-format, .text-format a {
+    color: blue;
+    text-decoration: underline;
+    margin:  1% 0 3%;
+}
+
+.company-col {
+    width: calc((100% - 40%) / 2);
+    float: left;
+    height: 100%;
+}
+
+.company-middleCol {
+    width: 40%;
+    padding: 5%;
+}
+
+.littleBorder {
+    border-bottom: 1px solid rgb(124, 124, 124);
+    width: 10%;
+    height: 10%;
+    margin-bottom: 10%;
+}
+
+.company-middleCol img {
+    width: 30%;
+}
+
+.square {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    float: left;
+}
+
+#florida {
+    height: 10%;
+}
+
+.squareImg {
+    filter: invert(1);
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+
+
 /* || TEXT || */
 
 p {
@@ -249,4 +306,34 @@ p {
     background-color: blue;
     color: white;
     padding: 15% 40%;
+}
+
+/* || BACKGROUND COLORS || */
+
+.bgColor-green {
+    background-color: green;
+}
+
+.bgColor-darkRed {
+    background-color: rgb(114, 11, 11);
+}
+
+.bgColor-red {
+    background-color: red;
+}
+
+.bgColor-lightBlue {
+    background-color: aquamarine;
+}
+
+.bgColor-aqua {
+    background-color: aqua;
+}
+
+.bgColor-blue {
+    background-color: blue;
+}
+
+.bgColor-yellow {
+    background-color: yellow;
 }
