@@ -186,6 +186,22 @@ h1 {
     padding-bottom: 10%;
 }
 
+/* || CARD SECTION || */
+
+.card {
+    width: calc(100% / 3 - 3.34%);
+    float: left;
+    margin-bottom: 8%;
+}
+
+.middle-card {
+    margin: 0 5%;
+}
+
+.card img {
+    width: 100%;
+}
+
 /* || TEXT || */
 
 p {
