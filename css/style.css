@@ -285,6 +285,29 @@ h1 {
 }
 
 
+/* ||FAQ SECTION || */
+.faq-section {
+    padding: 2% 0 10%;
+}
+
+.faq-section h2 {
+    padding: 5% 0;
+}
+
+.faq-section h4{
+    border-top: 1px solid lightgray;
+    padding: 3% 0;
+}
+
+.faq-section h4:last-child {
+    border-bottom: 1px solid lightgray;
+}
+
+.faq-section .fa-angle-down {
+    float: right;
+}
+
+
 
 /* || TEXT || */
 
