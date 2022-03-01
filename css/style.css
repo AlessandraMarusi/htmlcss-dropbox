@@ -341,7 +341,7 @@ nav li img {
 
 /* #region || COMPANY SECTION || */
 .companyCol-container {
-    background-color: lightgray;
+    background-color: #F5F5F5;
     height: 29.5vw;
 }
 
@@ -398,14 +398,18 @@ nav li img {
     transform: translateY(-50%)
 }
 
+.greenBorder {
+    border: 0.7vw solid #D0E9CD;
+}
+
 .company-banner {
-    background-color: rgb(198, 252, 234);
+    background-color: #B4D0E7;
     padding: 8% 0;
 }
 
 .company-banner h2 {
-    color: rgb(49, 1, 61);
-    width: 35%;
+    color: #61082B;
+    width: 55%;
     float: left;
 }
 
@@ -438,6 +442,10 @@ nav li img {
 .faq-section .fa-angle-down {
     float: right;
 }
+
+.faq-section .fa-angle-down:hover {
+    cursor: pointer;
+}
 /* #endregion */
  
 /* #region || FOOTER ||  */
@@ -447,7 +455,7 @@ footer {
 }
 
 .footer-list {
-    padding: 8% 0;
+    padding: 8% 0 3%;
     width: 80%;
     margin: 0 auto;
 }
@@ -481,8 +489,9 @@ footer {
 
 .linguaBtn {
     background-color: black;
-    color: white;
+    color: #646464;
     border: none;
+    font-size: 0.9rem;
 }
 .lingua {
     position: relative;
@@ -499,7 +508,7 @@ footer {
   
 .lingua-content a {
     color: black;
-    padding: 6px 8px;
+    padding: 6px 11px;
     text-decoration: none;
     display: block;
     font-size: 0.9rem;
