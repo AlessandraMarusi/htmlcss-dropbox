@@ -11,7 +11,7 @@
     clear: both;
 }
 
-/* || GENERAL || */
+/* #region || GENERAL || */
 
 a {
     text-decoration: none;
@@ -44,7 +44,7 @@ h4 {
 }
 
 .text-format {
-    font-size: 1rem;
+    font-size: 1.2rem;
     display: block;
     padding: 0.5rem 0;
 }
@@ -57,7 +57,9 @@ p {
     border: 1px solid gray;
 }
 
-/* || BUTTONS || */
+
+
+/* #region || BUTTONS || */
 
 .btnLarge {
     background-color: #0061FF;
@@ -79,11 +81,12 @@ p {
     color: white;
     padding: 15% 40%;
 }
+/* #endregion */
+/* #endregion */
 
+/* #region || HEADER || */
 
-/* || HEADER || */
-
-/* || NAV BAR || */
+/* #region || NAV BAR || */
 nav {
     padding: 1% 2%;
 }
@@ -96,9 +99,9 @@ nav {
     float: right;
     padding-right: 2%;
 }
+/* #endregion */
 
-
-/* || LISTA NAV BAR || */
+/* #region || LISTA NAV BAR || */
 nav {
     width: 100%;
     position: fixed;
@@ -120,9 +123,9 @@ nav li {
 nav li img {
     vertical-align: bottom;
 }
+/* #endregion */
 
-
-/* || JUMBO JUMGO || */
+/* #region || JUMBO JUMGO || */
 
 .jumbo-section {
     background-color: #B4D0E7;
@@ -161,118 +164,130 @@ nav li img {
     right: 2%;
     top: 45%;
 }
+/* #endregion */
 
-
-/* || COLUMN SECTION || */
+/* #region || COLUMN SECTION || */
 
 .col-section {
-    padding: 10% 0 10% 0%;
+        padding: 10% 0 10% 0%;
 }
 
 .col-sectionTitle label {
-    margin-right: 2%;
-    font-size: 1.2rem;
+        margin-right: 2%;
+        font-size: 1.2rem;
 }
 
 .col-sectionTitle input {
-    margin: 5% 0 3% 0;
+        margin: 5% 0 3% 0;
 }
 
 .col {
-    border: 1px solid gray;
-    float: left;
-    width: calc(100% / 3 - 3.34%);
-    min-height: 65rem;
+        border: 1px solid gray;
+        float: left;
+        width: calc(100% / 3 - 3.34%);
+        min-height: 65rem;
+}
+
+.col .btnLarge {
+        font-size: 1.1rem;
 }
 
 .middle-col {
-    margin: 0 5%;
+        margin: 0 5%;
 }
 
 .col > span:first-child {
-    display: block;
-    border-bottom: 1px solid gray;
-    text-align: center;
-    padding: 1.2rem;
-    font-size: 1.2rem;
+        display: block;
+        border-bottom: 1px solid gray;
+        text-align: center;
+        padding: 1.2rem;
+        font-size: 1.2rem;
 }
 .col-text {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 2rem;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 2rem;
 }
 
 .col-text h4 {
-    padding: 1.2rem 0 0;
+        padding: 1.2rem 0 0;
 }
 
 .col .text-format a {
-    color: blue;
+        color: blue;
 }
 
 .col-text .btnLarge {
-    margin: 15% 0 5%;
+        margin: 15% 0 5%;
 }
 
 .border {
-    border-bottom: 1px solid gray;
-    padding-bottom: 10% ;
+        border-bottom: 1px solid gray;
+        padding-bottom: 10% ;
 }
 
 .col-text h4:last-of-type {
-    padding-top: 25%;
+        padding-top: 25%;
 }
 
 .month {
-    color: rgb(131, 130, 130);
-    padding-bottom: 15%;
+        color: rgb(131, 130, 130);
+        padding-bottom: 15%;
 }
 
 .col-text .margin-pen {
-    margin-left: -8%;
+        margin-left: -8%;
 }
 
 .pen {
-    margin-left: 7.5%;
+        margin-left: 7.5%;
 }
 
 .col-text ul {
-    padding: 5% 0;
+        padding: 5% 0;
 }
 
 .col-text li {
-    padding: 3% 0;
-    padding-left: 7.7%;
+        padding: 3% 0;
+        padding-left: 7.7%;
 }
 
 .col-text .fa-solid {
-    padding-right: 2%;
+        padding-right: 2%;
 }
 
 .col-text .fa-check {
-    color: blue;
-    margin-left: -7.7%;
+        color: blue;
+        margin-left: -7.7%;
 }
 
 .colLarge {
-    width: 100%;
-    position: relative;
-    margin-top: 5%;
+        width: 100%;
+        /* position: relative; */
+        margin-top: 5%;
+        min-height: 0%;
+}
+
+.colLarge-text {
+        padding: 3%;
 }
 
 .colLarge-text h3 {
-    padding-top: 5%;
-    width: 50%;
+        display: inline-block;
 }
 
-.colLarge .btnLarge {
-    position: absolute;
-    float: right;
-    /* top: 5%;
-    right: 5%; */
+.colLarge-text h4 {
+        padding: 1% 0 2%;
 }
 
-/* || IMAGE SECTION || */
+.colLarge-text .btnLarge {
+        float: right;
+        padding: 0.6rem 4.5rem;
+}
+
+/* #endregion */
+
+/* #region || IMAGE SECTION || */
 .img-section img{
     float: left;
     width: 55%;
@@ -288,7 +303,8 @@ nav li img {
     padding-bottom: 10%;
 }
 
-/* || CARD SECTION || */
+/* #region || CARD SECTION || */
+
 
 .card {
     width: calc(100% / 3 - 3.34%);
@@ -303,8 +319,10 @@ nav li img {
 .card img {
     width: 100%;
 }
+/* #endregion */
+/* #endregion */
 
-/* || COMPANY SECTION || */
+/* #region || COMPANY SECTION || */
 .companyCol-container {
     background-color: lightgray;
     height: 29.5vw;
@@ -376,9 +394,9 @@ nav li img {
     background-color: white;
     color: black;
 }
+/* #endregion */
 
-
-/* ||FAQ SECTION || */
+/* #region ||FAQ SECTION || */
 .faq-section {
     padding: 2% 0 10%;
 }
@@ -399,9 +417,9 @@ nav li img {
 .faq-section .fa-angle-down {
     float: right;
 }
-
+/* #endregion */
  
-/* !! FOOTER ||  */
+/* #region !! FOOTER ||  */
 footer {
     background-color: black;
     color: white;
@@ -431,7 +449,7 @@ footer {
     color: white;
 }
 
-/* || DROPUP MENU || */
+/* #region || DROPUP MENU || */
 .lingua-container {
     width: 10%;
     border-top: 1px solid lightgray;
@@ -477,8 +495,11 @@ footer {
 .lingua:hover .linguaBtn {
     background-color: #2980B9;
 }
+/* #endregion */
 
-/* || BACKGROUND COLORS || */
+/* #endregion */
+
+/* #region || BACKGROUND COLORS || */
 
 .bgColor-green {
     background-color: green;
@@ -507,3 +528,5 @@ footer {
 .bgColor-yellow {
     background-color: yellow;
 }
+
+/* #endregion */
