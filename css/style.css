@@ -28,21 +28,29 @@ ul {
 }
 
 h1 {
-    font-size: 3.7rem;
+    font-size: 6em;
 }
 
 h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
     font-size: 2rem;
 }
 
+h4 {
+    font-size: 1.3rem;
+}
+
 .text-format {
-    font-size: 0.7rem;
+    font-size: 1rem;
     display: block;
     padding: 0.5rem 0;
 }
 
 p {
-    font-size: 0.8rem
+    font-size: 1.3rem
 }
 
 .textCol-format {
@@ -52,12 +60,12 @@ p {
 /* || BUTTONS || */
 
 .btnLarge {
-    background-color: blue;
+    background-color: #0061FF;
     display: block;
     padding: 0.5rem 1rem;
     color: white;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
 }
 
 .btnMedium {
@@ -67,7 +75,7 @@ p {
 }
 
 .btnSmall {
-    background-color: blue;
+    background-color: #0061FF;
     color: white;
     padding: 15% 40%;
 }
@@ -77,7 +85,7 @@ p {
 
 /* || NAV BAR || */
 nav {
-    padding: 2% 2%;
+    padding: 1% 2%;
 }
 
 .nav-left {
@@ -101,6 +109,7 @@ nav {
 
 nav ul {
     display: inline-block;
+    vertical-align: middle;
 }
 
 nav li {
@@ -116,9 +125,9 @@ nav li img {
 /* || JUMBO JUMGO || */
 
 .jumbo-section {
-    background-color: rgb(144, 144, 248);
-    padding: 7% 0;
-    margin-top: 7%;
+    background-color: #B4D0E7;
+    padding: 5% 0;
+    margin-top: 4%;
 }
 
 .jumbo-container {
@@ -133,21 +142,23 @@ nav li img {
 
 .jumbo-text p {
     padding: 10% 0 6%;
+
 }
 
 .jumbo-text .btnLarge {
-    font-size: 0.8rem;
-    width: 70%;
+    width: 60%;
 }
 
 .fa-arrow-down {
-    font-size: 6vh;
+    font-size: 3rem;
+    padding-top: 7%;
+    margin-bottom: 15%;
 }
 
 .jumbo-container img {
-    width: 65%;
+    width: 62%;
     position: absolute;
-    right: 0%;
+    right: 2%;
     top: 45%;
 }
 
@@ -160,6 +171,7 @@ nav li img {
 
 .col-sectionTitle label {
     margin-right: 2%;
+    font-size: 1.2rem;
 }
 
 .col-sectionTitle input {
@@ -170,7 +182,7 @@ nav li img {
     border: 1px solid gray;
     float: left;
     width: calc(100% / 3 - 3.34%);
-    min-height: 804px;
+    min-height: 65rem;
 }
 
 .middle-col {
@@ -181,7 +193,8 @@ nav li img {
     display: block;
     border-bottom: 1px solid gray;
     text-align: center;
-    padding: 5%;
+    padding: 1.2rem;
+    font-size: 1.2rem;
 }
 .col-text {
     width: 80%;
@@ -206,25 +219,29 @@ nav li img {
     padding-bottom: 10% ;
 }
 
+.col-text h4:last-of-type {
+    padding-top: 25%;
+}
+
 .month {
     color: rgb(131, 130, 130);
     padding-bottom: 15%;
 }
 
-.col-text .fa-pen {
-    margin-left: -7.7%;
+.col-text .margin-pen {
+    margin-left: -8%;
 }
 
 .pen {
-    margin-left: 7.7%;
+    margin-left: 7.5%;
 }
 
 .col-text ul {
-    padding: 15% 0;
+    padding: 5% 0;
 }
 
 .col-text li {
-    padding: 5% 0;
+    padding: 3% 0;
     padding-left: 7.7%;
 }
 
@@ -240,13 +257,19 @@ nav li img {
 .colLarge {
     width: 100%;
     position: relative;
-    min-height: 0;
+    margin-top: 5%;
+}
+
+.colLarge-text h3 {
+    padding-top: 5%;
+    width: 50%;
 }
 
 .colLarge .btnLarge {
     position: absolute;
-    top: 5%;
-    right: 5%;
+    float: right;
+    /* top: 5%;
+    right: 5%; */
 }
 
 /* || IMAGE SECTION || */
