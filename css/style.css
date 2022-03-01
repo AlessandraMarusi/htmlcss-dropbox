@@ -57,6 +57,10 @@ p {
     border: 1px solid gray;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 
 
 /* #region || BUTTONS || */
@@ -85,6 +89,7 @@ p {
 /* #endregion */
 
 /* #region || HEADER || */
+
 
 /* #region || NAV BAR || */
 nav {
@@ -165,11 +170,12 @@ nav li img {
     top: 45%;
 }
 /* #endregion */
+/* #endregion */
 
 /* #region || COLUMN SECTION || */
 
 .col-section {
-        padding: 10% 0 10% 0%;
+        padding: 10% 0;
 }
 
 .col-sectionTitle label {
@@ -288,6 +294,7 @@ nav li img {
 /* #endregion */
 
 /* #region || IMAGE SECTION || */
+
 .img-section img{
     float: left;
     width: 55%;
@@ -302,9 +309,20 @@ nav li img {
 .img-section .text-format {
     padding-bottom: 10%;
 }
+/* #endregion */
 
 /* #region || CARD SECTION || */
 
+.card-section {
+    padding: 7% 0;
+}
+
+.card-section h2 {
+    padding-bottom: 5%;
+}
+.card-section h3 {
+    padding-bottom: 5%;
+}
 
 .card {
     width: calc(100% / 3 - 3.34%);
@@ -320,12 +338,15 @@ nav li img {
     width: 100%;
 }
 /* #endregion */
-/* #endregion */
 
 /* #region || COMPANY SECTION || */
 .companyCol-container {
     background-color: lightgray;
     height: 29.5vw;
+}
+
+.company-section h2{
+    width: 55%;
 }
 
 .company-section .container .text-format, .text-format a {
@@ -419,7 +440,7 @@ nav li img {
 }
 /* #endregion */
  
-/* #region !! FOOTER ||  */
+/* #region || FOOTER ||  */
 footer {
     background-color: black;
     color: white;
@@ -502,31 +523,31 @@ footer {
 /* #region || BACKGROUND COLORS || */
 
 .bgColor-green {
-    background-color: green;
+    background-color: #A2D39B;
 }
 
 .bgColor-darkRed {
-    background-color: rgb(114, 11, 11);
+    background-color: #61082B;
 }
 
 .bgColor-red {
-    background-color: red;
+    background-color: #FF1C1C;
 }
 
 .bgColor-lightBlue {
-    background-color: aquamarine;
+    background-color: #B4D0E7;
 }
 
 .bgColor-aqua {
-    background-color: aqua;
+    background-color: #0093CE;
 }
 
 .bgColor-blue {
-    background-color: blue;
+    background-color: #0D2481;
 }
 
 .bgColor-yellow {
-    background-color: yellow;
+    background-color: #FFD830;
 }
 
 /* #endregion */
